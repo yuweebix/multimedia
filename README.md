@@ -46,17 +46,4 @@
         <td>0.8043 (UNet-SegFormer-B4)</td>
         <td>0.44</td>
     </tr>
-    <tr>
-        <td rowspan="2">YOLO (Ultralytics)</td>
-        <td>Классификация</td>
-        <td>0.92</td>
-        <td>0.95</td>
-        <td>0.90</td>
-    </tr>
-    <tr>
-        <td>Сегментация</td>
-        <td>0.82</td>
-        <td>0.85</td>
-        <td>0.88</td>
-    </tr>
 </table>
