@@ -20,12 +20,13 @@
         <th>Улучшенный бейзлайн</th>
         <th>Самостоятельная имплементация алгоритма</th>
     </tr>
+    <!-- Секция CNN -->
     <tr>
         <td rowspan="2">Сверточные нейронные сети (CNN) - torchvision</td>
         <td>Классификация</td>
-        <td>0.88</td>
-        <td>0.90</td>
-        <td>0.85</td>
+        <td>0.8259 (ResNet-50)</td>
+        <td>0.8748 (ResNet-50 + аугментации)</td>
+        <td>0.8598 (Vision Transformer)</td>
     </tr>
     <tr>
         <td>Сегментация</td>
@@ -33,6 +34,7 @@
         <td>0.81</td>
         <td>0.76</td>
     </tr>
+    <!-- Секция UNet -->
     <tr>
         <td rowspan="2">UNet (segmentation_models.pytorch)</td>
         <td>Классификация</td>
