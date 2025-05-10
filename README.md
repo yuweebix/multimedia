@@ -5,5 +5,58 @@
 
 В репозитории хранится 3 файла `ipynb`, в которых находятся решения лабораторных работ.
 
-# Результаты
+# Метрики
 
+- Pixel Accuracy
+- Mean IoU
+
+## Результаты
+
+<table>
+    <tr>
+        <th rowspan="1">Алгоритм</th>
+        <th>Задача</th>
+        <th>Бейзлайн</th>
+        <th>Улучшенный бейзлайн</th>
+        <th>Самостоятельная имплементация алгоритма</th>
+    </tr>
+    <tr>
+        <td rowspan="2">Сверточные нейронные сети (CNN) - torchvision</td>
+        <td>Классификация</td>
+        <td>0.88</td>
+        <td>0.90</td>
+        <td>0.85</td>
+    </tr>
+    <tr>
+        <td>Сегментация</td>
+        <td>0.78</td>
+        <td>0.81</td>
+        <td>0.76</td>
+    </tr>
+    <tr>
+        <td rowspan="2">UNet (segmentation_models.pytorch)</td>
+        <td>Классификация</td>
+        <td>0.92</td>
+        <td>0.94</td>
+        <td>0.88</td>
+    </tr>
+    <tr>
+        <td>Сегментация</td>
+        <td>0.7492 (UNet-ResNet34)</td>
+        <td>0.8043 (UNet-SegFormer-B4)</td>
+        <td>0.44</td>
+    </tr>
+    <tr>
+        <td rowspan="2">YOLO (Ultralytics)</td>
+        <td>Классификация</td>
+        <td>0.92</td>
+        <td>0.95</td>
+        <td>0.90</td>
+    </tr>
+    <tr>
+        <td>Сегментация</td>
+        <td>0.82</td>
+        <td>0.85</td>
+        <td>0.88</td>
+    </tr>
+</table>
