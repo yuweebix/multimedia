@@ -5,6 +5,11 @@
 
 В репозитории хранится 3 файла `ipynb`, в которых находятся решения лабораторных работ.
 
+# Ссылки на google colab:
+[6 лабораторная](https://drive.google.com/file/d/1zX-pOdcw-WtDAjemgud5TMtYKCTUixeZ/view?usp=sharing)
+[7 лабораторная](https://colab.research.google.com/drive/1gG4oYc_--e_yb4ZVikvaaqe9KluRTRS1?usp=sharing)
+[8 лабораторная](https://colab.research.google.com/drive/14W44ugg4vZmQxcRdpRmsaUm48u9_SLxA?usp=sharing)
+
 # Метрики
 
 - Pixel Accuracy
