@@ -29,15 +29,15 @@
     <tr>
         <td rowspan="2">Сверточные нейронные сети (CNN) - torchvision</td>
         <td>Классификация</td>
-        <td>0.8259 (ResNet-50)</td>
-        <td>0.8748 (ResNet-50 + аугментации)</td>
-        <td>0.8598 (Vision Transformer)</td>
+        <td>0.85</td>
+        <td>0.90</td>
+        <td>0.90</td>
     </tr>
     <tr>
         <td>Сегментация</td>
-        <td>0.78</td>
-        <td>0.81</td>
-        <td>0.76</td>
+        <td>0.94</td>
+        <td>0.93</td>
+        <td>0.93</td>
     </tr>
     <!-- Секция UNet -->
     <tr>
@@ -49,8 +49,8 @@
     </tr>
     <tr>
         <td>Сегментация</td>
-        <td>0.7492 (UNet-ResNet34)</td>
-        <td>0.8043 (UNet-SegFormer-B4)</td>
+        <td>0.75</td>
+        <td>0.80</td>
         <td>0.44</td>
     </tr>
 </table>
