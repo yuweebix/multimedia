@@ -5,6 +5,11 @@
 
 В репозитории хранится 3 файла `ipynb`, в которых находятся решения лабораторных работ.
 
+# Ссылки на google colab:
+[6 лабораторная](https://drive.google.com/file/d/1zX-pOdcw-WtDAjemgud5TMtYKCTUixeZ/view?usp=sharing)
+[7 лабораторная](https://colab.research.google.com/drive/1gG4oYc_--e_yb4ZVikvaaqe9KluRTRS1?usp=sharing)
+[8 лабораторная](https://colab.research.google.com/drive/14W44ugg4vZmQxcRdpRmsaUm48u9_SLxA?usp=sharing)
+
 # Метрики
 
 - Pixel Accuracy
@@ -20,19 +25,21 @@
         <th>Улучшенный бейзлайн</th>
         <th>Самостоятельная имплементация алгоритма</th>
     </tr>
+    <!-- Секция CNN -->
     <tr>
         <td rowspan="2">Сверточные нейронные сети (CNN) - torchvision</td>
         <td>Классификация</td>
-        <td>0.88</td>
-        <td>0.90</td>
         <td>0.85</td>
+        <td>0.90</td>
+        <td>0.90</td>
     </tr>
     <tr>
         <td>Сегментация</td>
-        <td>0.78</td>
-        <td>0.81</td>
-        <td>0.76</td>
+        <td>0.94</td>
+        <td>0.93</td>
+        <td>0.93</td>
     </tr>
+    <!-- Секция UNet -->
     <tr>
         <td rowspan="2">UNet (segmentation_models.pytorch)</td>
         <td>Классификация</td>
@@ -42,21 +49,8 @@
     </tr>
     <tr>
         <td>Сегментация</td>
-        <td>0.7492 (UNet-ResNet34)</td>
-        <td>0.8043 (UNet-SegFormer-B4)</td>
+        <td>0.75</td>
+        <td>0.80</td>
         <td>0.44</td>
-    </tr>
-    <tr>
-        <td rowspan="2">YOLO (Ultralytics)</td>
-        <td>Классификация</td>
-        <td>0.92</td>
-        <td>0.95</td>
-        <td>0.90</td>
-    </tr>
-    <tr>
-        <td>Сегментация</td>
-        <td>0.82</td>
-        <td>0.85</td>
-        <td>0.88</td>
     </tr>
 </table>
